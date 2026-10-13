@@ -24,4 +24,4 @@ and served over HTTPS (the sign-in cookie is secure-only in production).
 - `src/admin/`: shared pieces (`api.ts` client, `ui.tsx` kit, `shell.tsx` rail and permissions)
   and one folder per area (`ops`, `catalog`, `services`, `docs`, `admin-area`).
 - `src/shared/admin-nav.ts`: sections, sub-tabs and permission keys. **Keep it identical to
-  `shared/admin-nav.ts` in the API**, which checks the same keys.
+  `shared/admin-nav.js` in sky-api**, which checks the same keys.
